@@ -22,7 +22,7 @@ extern "C" {
 #endif
 
 #ifndef UUID4_STR_BUFFER_SIZE
-  #define UUID4_STR_BUFFER_SIZE (int)sizeof("xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx") // y is either 8, 9, a or b
+  #define UUID4_STR_BUFFER_SIZE (int)sizeof("xxxxxxxxxxxx4xxxyxxxxxxxxxxxxxxx") // y is either 8, 9, a or b
 #endif
 
 typedef uint64_t UUID4_PREFIX(state_t);
