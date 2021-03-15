@@ -184,11 +184,8 @@ bool UUID4_PREFIX(to_s)(const UUID4_T uuid, char* out, int capacity)
 
       *out++ = hex[byte >> 4];
       *out++ = hex[byte & 0xf];
-    }
-    //*out++ = '-';
+    }    
   }
-
-  *--out = 0;
 
   return true;
 }
